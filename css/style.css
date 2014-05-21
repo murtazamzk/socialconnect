@@ -1,0 +1,201 @@
+body {
+    background: #eee;
+}
+
+* {
+    outline:none;
+}
+.logo , .logo h1{
+    text-align: center;
+
+}
+
+.content {
+    min-height: 420px;	
+}
+
+.ucontent p {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#loader {display:none}
+
+#loader.show {display: block}
+
+#loader h1{
+    position: relative;
+    text-align: center;
+    height: 100px;
+    z-index: 999999;
+}
+
+
+#twittercontent {
+    display:none;
+}
+
+#name {
+    margin-left: -20px;
+    text-transform: capitalize;
+}
+
+#linfo {display : none}
+
+#linfo h1{
+    text-align: center;
+}
+
+.orbit-container .orbit-slides-container > * {
+    height: auto;
+}
+
+#mytweets a {
+    text-decoration: underline;
+}
+
+#followers_tweets .preloader {
+    display: none;
+    margin-top: 10px;
+}
+
+#followers img{
+    width:100px;
+    height:100px;
+}
+
+#siwt {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#siwt img {
+    cursor: pointer;
+}
+
+#siwt h1{
+    margin-bottom: 20px;
+}
+
+.search {
+    margin:0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.search input {
+    width:100%;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.search .preloader {
+    display: none;
+}
+
+
+.title {
+
+    font-size:20px;
+}
+
+.title a:hover {
+    background: inherit !important;
+}
+
+.tweets {
+    background:#00acee;
+    color:#fff;
+}
+
+.arrow--prev {
+    border-bottom: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid #0000FF;
+    border-top: 10px solid rgba(0, 0, 0, 0);
+    height: 0;
+    width: 0;
+    position:absolute;
+    top:30px;
+}
+
+.orbit-container {
+    background: none;
+}
+
+.tweets li {
+    padding:8px;
+}
+
+.tweets a{
+    color:#fff;
+}
+
+.fbbtn{
+    background: #3b5998;
+}
+.fbbtn a{color:#fff !important;}
+
+.twtbtn{
+    background: #00acee;
+}
+.twtbtn a{color:#fff !important;}
+
+.libtn{
+    background: #0e76a8;
+}
+
+.libtn a {color: #fff !important}
+
+
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.suggest-holder ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #00acee;
+    position:absolute;
+    min-width: 300px;
+    background:#f6f6f6;
+    margin-top: -16px;
+    z-index:99999;
+    text-align: left;
+}
+.suggest-holder img {
+    margin-right: 12px;
+}
+.suggest-holder li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.suggest-holder li:hover {
+    cursor: pointer;
+}
+.suggest-holder li:hover,.suggest-holder li.activ {
+    background: #00acee;
+    color:#fff;
+}
+.suggest-name {
+    font-weight: bold;
+    display: block;
+    height: 10px;
+    font-size: 20px;
+}
+.suggest-description {
+    font-style: italic;
+    font-size: 11px;
+}
+
